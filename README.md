@@ -1,6 +1,6 @@
 # Git Commands
-#### Learning to push, pull, fetch... etc
-<br></br>
+##### (Learning to push, pull, fetch... etc)
+
 
 ## Git commands to start from scrach (from empty repo in local system)
 <ol>
