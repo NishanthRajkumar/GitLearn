@@ -4,9 +4,9 @@ Learning to push, pull, fetch... etc
 Git commands to start from scrach (Empty repo in local and remote)
 
 1. git init
-	-> Current working directory is intialized as empty Git repo
-	-> Default branch name of this local repo: master
-	-> `git branch` will display nothing since 1st commit is missing
+	i. Current working directory is intialized as empty Git repo
+	ii. Default branch name of this local repo: master
+	iii. `git branch` will display nothing since 1st commit is missing
 2. git status
 3. git add <file>
 	-> Use this command if you want git to add these files to local repo
