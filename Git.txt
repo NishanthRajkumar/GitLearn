@@ -1,6 +1,3 @@
-# Git Commands
-Learning to push, pull, fetch... etc
-
 Git commands to start from scrach (Empty repo in local and remote)
 
 1. git init
