@@ -37,7 +37,7 @@ If you are cloning from online repo and do not wish to create your own local mac
 
 1. git clone <repo clone link>
 	-> A new directory named after the cloned project will appear
-2. All of the above commands are applicable except:-
+2. The following commands are not applicable for cloning:-
 	-> `git init`
 	-> `git push -u <variable name/ repo clone link> <branch name>`
-	-> The above 2 are not applicable since local machine repo was never created from scratch
+	-> These 2 commands are not applicable since local machine repo was never created from scratch

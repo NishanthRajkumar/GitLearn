@@ -1,46 +1,71 @@
 # Git Commands
-Learning to push, pull, fetch... etc
+#### Learning to push, pull, fetch... etc
+<br></br>
 
-Git commands to start from scrach (Empty repo in local and remote)
+## Git commands to start from scrach (from empty repo in local system)
+<ol>
+	<li>`git init`</li>
+	<ul>
+		<li>Current working directory is intialized as empty Git repo</li>
+		<li>Default branch name of this local repo: 'master'</li>
+		<li>`git branch` will display nothing since 1st commit is missing</li>
+	</ul>
+	<li>`git status`</li>
+	<li>`git add < file >`</li>
+	<ul>
+		<li>Use this command if you want git to add these files to local repo</li>
+		<li>`git add --all` adds all untracked files</li>
+		<li>When added they move to staging area</li>
+		<ul>
+			<li>Basically stored temporarily in branch until committed</li>
+			<li>`git rm --cached < file >` to undo `git add`</li>
+			<li>`git rm -r --cached < files >` for multiple files</li>
+		</ul>
+	</ul>
+	<li>`git stash` will delete all uncommitted changes made in branch</li>
+	<li>`git commit -m "< commit message >"`</li>
+	<ul>
+		<li>Always give a commit msg. Never leave it empty</li>
+	</ul>
+	<li>`git branch < branch name >`</li>
+	<ul>
+		<li>Creates new branch of name: `< branch name >`</li>
+	</ul>
+	<li>`git checkout < branch name >`</li>
+	<ul>
+		<li>Switches from current branch to `< branch name >`</li>
+	</ul>
+	<li>`git remote add < variable name > < repo clone link >`</li>
+	<ul>
+		<li>Creates a variable `< variable name >` and stores the repo clone link</li>
+		<li>This will be useful to push/pull/fetch...etc from online repo</li>
+	</ul>
+	<li>`git push < variable name/ repo clone link > < branch name >`</li>
+	<ul>
+		<li>Will push committed changes of < branch name > to online repo</li>
+	</ul>
+	<li>`git push -u < variable name/ repo clone link > < branch name >`</li>
+	<ul>
+		<li>Use this if:-</li>
+		<ul>
+			<li>this is your 1st push, and you have not made any clone, fetch, pull from this online repo prior to this</li>
+		</ul>
+	</ul>
+</ol>
 
-1. git init
-	i. Current working directory is intialized as empty Git repo
-	ii. Default branch name of this local repo: master
-	iii. `git branch` will display nothing since 1st commit is missing
-2. git status
-3. git add <file>
-	-> Use this command if you want git to add these files to local repo
-	-> `git add --all` adds all untracked files
-	-> When added they move to staging area
-		-> Basically stored temporarily in branch until committed
-		-> `git rm --cached <file>` to undo `git add`
-		-> `git rm -r --cached <files>` for multiple files
-4. `git stash` will delete all uncommitted changes made in branch
-5. git commit -m "<commit message>"
-	-> Always give a commit msg. Never leave it empty
-6. git branch <branch name>
-	-> Creates new branch of name: `<branch name>`
-7. git checkout <branch name>
-	-> Switches from current branch to <branch name>
-8. git remote add <variable name> <repo clone link>
-	-> Creates a variable <variable name> and stores the repo clone link
-	-> This will be useful to push/pull/fetch...etc from online repo
-9. git push <variable name/ repo clone link> <branch name>
-	-> Will push committed changes of <branch name> to online repo
-10. git push -u <variable name/ repo clone link> <branch name>
-	-> Use this if:-
-		-> this is your 1st push, and you have not made any clone, fetch, pull from this online repo prior to this
+<br></br>
 
-
-
-
-
-Git cloning
-If you are cloning from online repo and do not wish to create your own local machine repo before that then the following applies:
-
-1. git clone <repo clone link>
-	-> A new directory named after the cloned project will appear
-2. All of the above commands are applicable except:-
-	-> `git init`
-	-> `git push -u <variable name/ repo clone link> <branch name>`
-	-> The above 2 are not applicable since local machine repo was never created from scratch
+## Git cloning
+### If you are cloning from online repo and do not wish to create your own local machine repo before that then the following applies:
+<ol>
+<li>`git clone < repo clone link >`</li>
+   <ul>
+	<li>A new directory named after the cloned project will appear</li>
+	</ul>
+<li>The following commands are not applicable for cloning:-</li>
+   <ul>
+	<li>`git init`</li>
+	<li>`git push -u < variable name/ repo clone link > < branch name >`</li>
+	<li>These 2 commands are not applicable since local machine repo was never created from scratch</li>
+	</ul>
+</ol>
