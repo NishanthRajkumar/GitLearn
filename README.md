@@ -69,3 +69,23 @@
 	<li>These 2 commands are not applicable since local machine repo was never created from scratch</li>
 	</ul>
 </ol>
+
+## Git merge conflict reolution
+<ol>
+<li>If conflict occurs when merging branches on the local machine:</li>
+<ul>
+<li>Use `git mergetool`. It allows you to edit the files by comparing with merging branch</li>
+<li>After successful mergetool edit, do `git commit -m "< commit message >"`</li>
+</ul>
+<li>If conflict occurs when pushing to remote branch then:</li>
+<ul>
+<li>Do `git pull --rebase < variable name/ repo clone link > < branch name >`</li>
+<ul>
+<li>Above command will give you the details of the conflict</li>
+<li>Now use `git mergetool`</li>
+<li>After mergetool edit is successful, do `git rebase --continue`</li>
+<li>No need to commit at this point</li>
+</ul>
+<li>After rebase is successful, push the local branch</li>
+</ul>
+</ol>
