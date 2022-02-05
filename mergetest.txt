@@ -1,6 +1,6 @@
 Testing git merge concepts and commands
 
-edited in branch1
+Line added by branch1
 edited in branch2
 
 This line added in remote master branch
