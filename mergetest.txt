@@ -2,4 +2,4 @@ Testing git merge concepts and commands
 
 Modifying txt:
 
-test 1
+text edited in master
