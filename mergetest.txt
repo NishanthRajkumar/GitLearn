@@ -1,9 +1,3 @@
 Testing git merge concepts and commands
 
-Modifying txt:
-
-<<<<<<< HEAD
-text edited in mergetool
-=======
-text edited in mergetool
->>>>>>> branch1
+edited in branch1
