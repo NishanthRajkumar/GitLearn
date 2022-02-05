@@ -4,3 +4,4 @@ edited in branch1
 edited in branch2
 
 This line added in remote master branch
+This line is added by local machine master branch
