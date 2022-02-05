@@ -1,5 +1,6 @@
 # Git Commands
 ##### (Learning to push, pull, fetch... etc)
+##### (And to resolve merge conflicts if any)
 
 
 ## Git commands to start from scrach (from empty repo in local system)
