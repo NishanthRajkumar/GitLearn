@@ -71,7 +71,7 @@
 	</ul>
 </ol>
 
-## Git merge conflict reolution
+## Git merge conflict resolution
 <ol>
 <li>If conflict occurs when merging branches on the local machine:</li>
 <ul>
