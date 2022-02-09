@@ -111,6 +111,7 @@
 			<li>
 				Rebase basically adds all the commits of the online main branch and repositions all aditional commits to start after the online main branch commits. This ensures that the local branch commits are in sync with the online branch
 			</li>
+		</ul>
 	<li>
 		`git push < variable name/ repo clone link > < branch name >`
 	</li>
