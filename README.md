@@ -26,7 +26,7 @@
 		-	Use `git branch -m master main` to change the branch name from master to main
 	-	If it is your own repo then you have another option. You can set the default repo created by Github as `master` in settings.
 8. `git checkout <branch name>`
-	-	Switches from current branch to `< branch name >`
+	-	Switches from current branch to `<branch name>`
 9.	`git remote add <variable name> <repo clone link>`
 	-	Creates a variable `<variable name>` and stores the repo clone link
 	-	This will be useful to push/pull/fetch...etc from online repo
