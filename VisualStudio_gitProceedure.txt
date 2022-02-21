@@ -3,7 +3,7 @@
 
 1. git init
 
-2. git branch -m master main
+2. git branch -m master main          (Do this if your default branch name for online repo is `main`)
 
 3. git remote add origin *Copy-paste git clone link here*
 
